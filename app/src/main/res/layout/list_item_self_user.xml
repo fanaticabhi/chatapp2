@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+   >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentEnd="true"
+    android:background="@drawable/textfield_self_user">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/message_user"
+        android:paddingRight="10dp"
+        android:text="user_email_id"
+        android:textColor="#D0D3D4   "
+        android:textStyle="normal"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/message_text"
+        android:textColor="#D0D3D4  "
+        android:textSize="20dp"
+
+        android:text="this is text area message.wher u can type ur message"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_below="@+id/message_user"/>
+
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/message_time"
+        android:textColor="#2E4053 "
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:text="12:30 pm"
+       />
+
+
+</RelativeLayout>
